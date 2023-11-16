@@ -5,9 +5,11 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.databinding.ActivityAddShipmentBinding
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+
 
 class AddShipmentActivity : AppCompatActivity() {
 
@@ -19,6 +21,8 @@ class AddShipmentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAddShipmentBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        FirebaseApp.initializeApp(this)
 
         firebaseAuth = FirebaseAuth.getInstance()
 
