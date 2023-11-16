@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.databinding.ActivityAddShipmentBinding
 import com.google.firebase.FirebaseApp
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -14,7 +13,7 @@ import com.google.firebase.database.FirebaseDatabase
 class AddShipmentActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityAddShipmentBinding
-    private lateinit var firebaseAuth: FirebaseAuth
+   // private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var database: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class AddShipmentActivity : AppCompatActivity() {
 
         FirebaseApp.initializeApp(this)
 
-        firebaseAuth = FirebaseAuth.getInstance()
+        //firebaseAuth = FirebaseAuth.getInstance()
 
         binding.textView2.setOnClickListener{
             val intent = Intent(this, HomeActivity::class.java)
