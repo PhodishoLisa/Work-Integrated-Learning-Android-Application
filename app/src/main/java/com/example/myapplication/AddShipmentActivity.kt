@@ -25,6 +25,10 @@ class AddShipmentActivity : AppCompatActivity() {
 
         //firebaseAuth = FirebaseAuth.getInstance()
 
+        binding.buttonUpdate.setOnClickListener{
+            val intent = Intent(this, UpdateShipment::class.java)
+            startActivity(intent)
+        }
         binding.textView2.setOnClickListener{
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
