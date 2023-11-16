@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +17,10 @@ class UpdateShipment : AppCompatActivity() {
         binding = ActivityUpdateShipmentBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.buttonTrack.setOnClickListener{
+            val intent = Intent(this, TrackShipmentActivity::class.java)
+            startActivity(intent)
+        }
         binding.ButtonUpdate.setOnClickListener {
             val ID = binding.editTextText2.text.toString()
             val destination = binding.editTextText3.text.toString()
