@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".ServicesActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="267dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/ButtonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:background="#F80303"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/buttonCONTACTUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F80303"
+        android:text="cONTACT US"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/buttonBusWitUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business With Us"
+        android:background="#F80303"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <TextView
+        android:id="@+id/TextPortsAuth"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="140dp"
+        android:text="National Ports Authority"
+        app:layout_constraintEnd_toStartOf="@+id/TextTerminals"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonHome" />
+
+    <TextView
+        android:id="@+id/TextTerminals"
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="132dp"
+        android:text="Port Terminals"
+        app:layout_constraintBottom_toTopOf="@+id/TextFreightRail"
+        app:layout_constraintEnd_toStartOf="@+id/TextEngeneering" />
+
+    <TextView
+        android:id="@+id/TextEngeneering"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="24dp"
+        android:text="Engineering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBusWitUs" />
+
+    <TextView
+        android:id="@+id/TextMore"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="140dp"
+        android:text="More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPortsAuth"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/TextFreightRail"
+        android:layout_width="93dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="140dp"
+        android:text="Freight Rail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toEndOf="@+id/TextMore" />
+
+    <TextView
+        android:id="@+id/TextPipelines"
+        android:layout_width="71dp"
+        android:layout_height="30dp"
+        android:text="Pipelines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toEndOf="@+id/TextFreightRail"
+        app:layout_constraintTop_toBottomOf="@+id/TextEngeneering"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="118dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextPortsAuth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/od_portsterminals" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextTerminals"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:srcCompat="@drawable/od_nationalportsauthority" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="93dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextEngeneering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/od_engineering" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="100dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextEngeneering"
+        app:srcCompat="@drawable/od_pipelines" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="113dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextFreightRail"
+        app:layout_constraintEnd_toStartOf="@+id/imageView17"
+        app:srcCompat="@drawable/od_freightrail" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="100dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextMore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPortsAuth"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ban08" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

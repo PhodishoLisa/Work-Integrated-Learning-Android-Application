@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddShipmentActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="294dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/logo_1_" />
+
+    <EditText
+        android:id="@+id/ETid"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Shipment ID"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/ETdestination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETdestination"
+        android:layout_width="284dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Destination"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/ETweight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETweight"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Weight(Kg)"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/ETMethod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETMethod"
+        android:layout_width="277dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="288dp"
+        android:ems="10"
+        android:hint="Collection or Delivery"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BtnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#F30B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BtnTrack"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <Button
+        android:id="@+id/BtnTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:background="#F30B0B"
+        android:text="Track "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="202dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="Click here to go to home page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETMethod"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <EditText
+        android:id="@+id/ETDate"
+        android:layout_width="283dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="76dp"
+        android:ems="10"
+        android:hint="Shipment Date"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="318dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="391dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313"
+        app:srcCompat="@drawable/carousel04" />
+
+    <TextView
+        android:id="@+id/VisitWebsiteTextview"
+        android:layout_width="395dp"
+        android:layout_height="427dp"
+        android:text="​​​​​​​​​​​​​​​​​​​​Transnet is the largest and most crucial part of the freight logistics chain that delivers goods to each and every South African.
+
+As the custodian of ports, rail and pipelines, Transnet’s objective is to ensure a globally competitive freight system that enables sustained growth and diversification of the country’s economy.
+
+• Transnet SOC Ltd is a public company (constituted in terms of the Legal Succession Act of 1989), with the South African Government as the sole shareholder.
+
+• Transnet owns South Africa's railway, ports and pipelines infrastructure.
+
+• The Company's Memorandum of Incorporation (MOI) – approved by the Shareholder Minister on 25 June 2013 – aligns with the provisions of the PFMA, the Companies Act and the National Ports Act, No 12 of 2005, as amended (the National Ports Act).
+
+• As a State-owned Company (SOC), the PFMA serves as Transnet's primary legislation.
+
+• Transnet signs an annual Shareholder's Compact with the Government of the Republic of South Africa, represented by the Minister of Public Enterprises (DPE). The Shareholder's Compact mandates the Company to deliver on numerous strategic deliverables, including sustainable economic, social and environmental outcomes.
+
+The DPE is the Shareholder representative for Government and is mandated by the Executive to oversee a number of SOCs that operate in core sectors of the economy like mining, defence, energy, logistics and others.
+
+The DPE's strategy has been developed in the context of the National Development Plan (NDP), the Medium-Term Strategic Framework and in response to internal and external environmental drivers.
+
+Of necessity, the DPE's strategy recognises the challenging and complex prevailing macro-environment and the attendant challenge of choosing where best to allocate scarce resources for maximum effect.
+
+Transnet has aligned its Growth and Renewal Strategy with the Shareholder's SSI, which mandates Transnet to deliver on the following macro strategic outcomes:
+
+• Reduce the total cost of logistics as a percentage of transportable GDP
+
+• Effect and accelerate the modal shift by maximising the role of rail in the national transport task
+
+• Integrate South Africa with the region and the rest of the world
+
+• Optimise the social and economic impact of all interventions
+
+undertaken by the SOC in the achievement of these objectives
+
+• Leverage the private sector in the provision of both infrastructure and operations, where required"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:background="#F80303"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <Button
+        android:id="@+id/buttonServices"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:background="#F80303"
+        android:text="Services"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/TextVisitWeb"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:text="Visit our website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
